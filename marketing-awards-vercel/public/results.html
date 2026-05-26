@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marketing Awards Results</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body data-page="results">
+    <header class="topbar">
+      <a class="brand" href="/">Marketing Awards</a>
+      <nav aria-label="Primary">
+        <a href="/">Ballot</a>
+        <a href="/admin">Nominations</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero-short">
+        <img src="/assets/awards-header.png" alt="" />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Live vote totals</p>
+          <h1>Results</h1>
+          <p id="results-meta" class="hero-copy"></p>
+        </div>
+      </section>
+
+      <section class="content-shell">
+        <div id="status" class="status" hidden></div>
+        <div id="results-list" class="award-stack"></div>
+      </section>
+    </main>
+  </body>
+</html>

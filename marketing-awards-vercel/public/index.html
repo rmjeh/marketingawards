@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marketing Awards Ballot</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body data-page="vote">
+    <header class="topbar">
+      <a class="brand" href="/">Marketing Awards</a>
+      <nav aria-label="Primary">
+        <a href="/results">Results</a>
+        <a href="/admin">Nominations</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero-compact">
+        <img src="/assets/awards-header.png" alt="" />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Anonymous team ballot</p>
+          <h1>Vote for this cycle's Marketing Awards.</h1>
+          <p class="hero-copy">Only award categories with active nominations appear on the ballot.</p>
+        </div>
+      </section>
+
+      <section class="content-shell">
+        <div id="status" class="status" hidden></div>
+        <form id="vote-form" class="award-stack" novalidate></form>
+        <section id="after-submit" class="submit-panel" hidden></section>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "updatedAt": null,
+  "categories": [
+    {
+      "awardId": "business-impact",
+      "nominees": []
+    },
+    {
+      "awardId": "execution-excellence",
+      "nominees": []
+    },
+    {
+      "awardId": "team-player",
+      "nominees": []
+    },
+    {
+      "awardId": "ai-transformation",
+      "nominees": []
+    },
+    {
+      "awardId": "marketing-visionary",
+      "nominees": []
+    }
+  ]
+}

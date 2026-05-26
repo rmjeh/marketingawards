@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marketing Awards Nominations</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body data-page="admin">
+    <header class="topbar">
+      <a class="brand" href="/">Marketing Awards</a>
+      <nav aria-label="Primary">
+        <a href="/">Ballot</a>
+        <a href="/results">Results</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero-short">
+        <img src="/assets/awards-header.png" alt="" />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Award setup</p>
+          <h1>Nominations</h1>
+          <p class="hero-copy">Add one nominee per line. Use a pipe to include the nomination note.</p>
+        </div>
+      </section>
+
+      <section class="content-shell">
+        <div id="status" class="status" hidden></div>
+        <form id="admin-form" class="award-stack" novalidate></form>
+      </section>
+    </main>
+  </body>
+</html>
